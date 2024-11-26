@@ -89,7 +89,10 @@ public class LoginPage {
 		checkbox2.click();
 		WebElement checkbox3 = driver.findElement(By.xpath("//div[8]//label[1]//span[1]//input[1]"));
 		checkbox3.click();
+		// validate the Recurring Reimbursement
 		
+		Assert.assertEquals(true, false);
+
 		
 		
 		
